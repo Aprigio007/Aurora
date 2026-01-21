@@ -34,7 +34,9 @@ export default function Index() {
             start={{x:0, y:0}}
             end={{x:1, y:0}}
             style={styles.degrade_botao}>
-              <Image source={require("../assets/images/somar.png")} style={styles.imagem_botao_cadastrar} />
+              <View style={styles.container_imagem_botao_cadastrar}>
+                <Image source={require("../assets/images/somar.png")} style={styles.imagem_botao_cadastrar} />
+              </View>
               <Text style={styles.texto_botao}>Criar nova conta</Text>
             </LinearGradient>
           </TouchableOpacity>

@@ -86,15 +86,21 @@ const Screenheight = Dimensions.get('window').height;
     },
 
       imagem_botao_cadastrar: {
-        width: '25%',
-        height: '100%',
+        width: '50%',
+        height: '50%',
         resizeMode: 'contain',
-        marginTop: "auto",
+        
+    },
+
+    container_imagem_botao_cadastrar: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
     },
 
     texto_botao: {
         color: '#5367c8',
-        flex: 1,
+        flex: 3,
         fontSize: 15,
         textAlign: 'center',
         alignSelf: 'center',
